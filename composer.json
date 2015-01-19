@@ -1,0 +1,23 @@
+{
+    "name": "instinct/php2py",
+    "description": "Convert PHP code to Python code",
+    "autoload": {
+        "psr-0": {
+            "": "src"
+        }
+    },
+    "require": {
+        "sebastian/diff": "1.1.*",
+        "symfony/finder": "~2.2",
+        "symfony/filesystem": "~2.2",
+        "fabpot/php-cs-fixer": "~1.0@dev",
+        "symfony/console": "~2.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "alquerci",
+            "email": "alquerci@email.com"
+        }
+    ]
+}
